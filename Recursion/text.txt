@@ -1,0 +1,31 @@
+Q) What is recursion?
+A process (a function in our case) that calls itself
+
+Two essential parts of a recursive function!
+    Base Case
+    Different Input
+
+Q) How recursive functions work
+Invoke the same function with a different input until you reach your base case!
+
+Q) Base Case
+The condition when the recursion ends.
+This is the most important concept to understand 
+
+Q) Where things go wrong
+No base case
+Forgetting to return or returning the wrong thing!
+Stack overflow! 
+function factorial(num){
+    if(num === 1) return 1;
+    return num * factorial(num);
+}
+function factorial(num){
+    if(num === 1) console.log(1) ;
+    return num * factorial(num-1);
+}
+
+# Pure Recursion Tips :
+For arrays, use methods like slice, the spread operator, and concat that make copies of arrays so you do not mutate them
+Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings
+To make copies of objects use Object.assign, or the spread operator
