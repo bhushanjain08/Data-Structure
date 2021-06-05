@@ -1,6 +1,7 @@
 Link : https://visualgo.net/en/sorting
 https://www.toptal.com/developers/sorting-algorithms
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+BIG O Cheat sheet : https://www.bigocheatsheet.com/
 
 # Objectives : 
 Implement bubble sort
@@ -16,6 +17,16 @@ Sorting numbers from smallest to largest
 Sorting names alphabetically
 Sorting movies based on release year
 Sorting movies based on revenue
+
+Basic Sorting Alog : 
+1) Bubble Sorting
+2) Insertion Sorting
+3) Selection sorting
+
+Advance Sorting Alog :
+1) Merge sort
+2) Quick sort
+3) Radix sort
 
 Telling JavaScript how to sort
 * The built-in sort method accepts an optional comparator function ? 
