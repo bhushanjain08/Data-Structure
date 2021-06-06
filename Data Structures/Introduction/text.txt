@@ -33,6 +33,7 @@ Use a binary heap!
 
 ES2015
 CLASS SYNTAX
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 # Structure:  
 
