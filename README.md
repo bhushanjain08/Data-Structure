@@ -1,6 +1,6 @@
 # Data-Structure
 
-Data structure from scratch with notes using JAVASCRIPT. Top notch to score well, for learning purpose and for interviews. 
+Data structure from scratch with notes and pseudocode using JAVASCRIPT. Top notch to score well, for learning purpose and for interviews. 
 
 How to use this repo !!
   1. All are the separate files, 
