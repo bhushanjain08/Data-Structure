@@ -1,19 +1,19 @@
 class Node {
-    constructor(value){
+    constructor(value) {
         this.value = value;
         this.next = null;
     }
 }
 
 class Queue {
-    constructor(){
+    constructor() {
         this.first = null;
         this.last = null;
         this.size = 0;
     }
-    enqueue(val){
+    enqueue(val) {
         var newNode = new Node(val);
-        if(!this.first){
+        if (!this.first) {
             this.first = newNode;
             this.last = newNode;
         } else {
@@ -23,11 +23,11 @@ class Queue {
         return ++this.size;
     }
 
-    dequeue(){
-        if(!this.first) return null;
+    dequeue() {
+        if (!this.first) return null;
 
         var temp = this.first;
-        if(this.first === this.last) {
+        if (this.first === this.last) {
             this.last = null;
         }
         this.first = this.first.next;
@@ -35,3 +35,5 @@ class Queue {
         return temp.value;
     }
 }
+
+var queue = new Queue();
