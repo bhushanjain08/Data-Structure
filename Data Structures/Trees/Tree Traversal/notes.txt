@@ -59,8 +59,45 @@ Steps - Recursively
 *Return the array of values
 ------------------------------------
 
+# Removing a Node in a BST
+
+# Removing a Node - 0 children
+Steps - Iteratively
+
+*Find the parent of the node that needs to be removed and the node that needs to be removed
+*If the value we are removing is greater than the parent node
+    -Set the right property of the parent to be null
+*If the value we are removing is less than the parent node​
+    -Set the left property of the parent to be null
+*Otherwise, the node we are removing has to be the root, so set the root to be null
+
+----------------------------------------
+# Removing a Node - 1 child
+Steps - Iteratively
+
+*Find the parent of the node that needs to be removed and the node that needs to be removed
+*See if the child of the node to be removed is on the right side or the left side
+*If the value we are removing is greater than the parent node​​
+    -Set the right property of the parent to be the child
+*If the value we are removing is less than the parent node​
+    -Set the left property of the parent to be the child
+*Otherwise, set the root property of the tree to be the child
+--------------------------------------------------
+# Removing a Node - 2 children
+Steps - Iteratively
+
+Find the parent of the node that needs to be removed and the node that needs to be removed
+Find the predecessor node and store that in a variable
+Set the left property of the predecessor node to be the left property of the node that is being removed
+If the value we are removing is greater than the parent node​​
+Set the right property of the parent to be the right property of the node to be removed
+If the value we are removing is less than the parent node​
+Set the left property of the parent to be the right property of the node to be removed
+Otherwise, set the root of the tree to be the right property of the node to be removed
+
 #RECAP
 -Trees are non-linear data structures that contain a root and child nodes
 -Binary Trees can have values of any type, but at most two children for each parent
 -Binary Search Trees are a more specific version of binary trees where every node to the left of a parent is less than it's value and every node to the right is greater
 -We can search through Trees using BFS and DFS
+
