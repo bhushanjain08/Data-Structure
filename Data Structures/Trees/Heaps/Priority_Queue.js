@@ -51,7 +51,7 @@ class PriorityQueue {
                     (swap !== null && rightChild.priority < leftChild.priority)
                 ) {
                     swap = rightChildIdx;
-                }
+                } 
             }
             if(swap === null) break;
             this.values[idx] = this.values[swap];
@@ -66,7 +66,7 @@ class Node {
         this.val = val;
         this.priority = priority;
     }
-}
+} 
 
 let ER = new PriorityQueue();
 ER.enqueue("common cold",5)
