@@ -7,5 +7,5 @@ How to use this repo !!
   2. Pick the topic you want to learn
   3. Run that file on any code editor. 
 
-Thank you
+Thank you,
 Bhushan Jain
